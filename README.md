@@ -95,7 +95,7 @@ Feito isso, iniciei e aguardei a finalização da implantação (status Succeede
 
 # Testando o serviço Implantado 
 Agora, havia chegado a hora de testar o serviço implantado. No menu "Pontos de extremidade", selecionei o modelo implantado e selcionei a opção "Testar". No painel de entrada para testar, substitui o modelo JSON pelos seguintes dados de entrada: 
-
+```
  {
    "Inputs": { 
      "data": [
@@ -117,13 +117,16 @@ Agora, havia chegado a hora de testar o serviço implantado. No menu "Pontos de 
    },   
    "GlobalParameters": 1.0
  }
+```
 
 Após isso, cliquei no botão teste e obtive o resultado:
+```
 {
   "Results": [
     353.84325661820674
   ]
 }
+```
 Finalizado a atividade, fiz o processo de limpeza do espaço de trabalho, para evitar o consumo de dados desnecessarios na minha conta do Azure.
 
 Esse foi um resumo simples do meu trabalho nessa atividade, que foi de muito bom proveito para expandir um pouco meu conhecimento!
